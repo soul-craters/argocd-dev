@@ -8,3 +8,5 @@ to open argocd
 kubectl port-forward svc/argocd-server -n argocd 8080:443
 
 kubectl get applications -A
+
+added dev branch
