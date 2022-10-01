@@ -28,7 +28,7 @@ spec:
         # Default values for nfx-vuejs.
         # This is a YAML-formatted file.
         # Declare variables to be passed into your templates.
-        replicaCount: 2
+        replicaCount: 1
         image:
           repository: vladimir8y/nflx-dev
           pullPolicy: Always
