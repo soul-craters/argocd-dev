@@ -16,7 +16,7 @@ spec:
 
   # Source of the application manifests
   source:
-    repoURL: https://github.com/twig-trainer/helm-charts.git  # Can point to either a Helm chart repo or a git repo.
+    repoURL: https://github.com/soul-craters/helm-charts.git  # Can point to either a Helm chart repo or a git repo.
     targetRevision: HEAD  # For Helm, this refers to the chart version.
     path: simpledeployment  # This has no meaning for Helm charts pulled directly from a Helm repo instead of git.
 
@@ -33,7 +33,7 @@ spec:
           repository: vladimir8y/nflx-dev
           pullPolicy: Always
           # Overrides the image tag whose default is the chart appVersion.
-          tag: "build_131"
+          tag: "build_132"
         imagePullSecrets: []
         nameOverride: "nfx-vuejs-app"
         fullnameOverride: "nfx-vuejs-chart"
