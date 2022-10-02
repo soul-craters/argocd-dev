@@ -30,10 +30,10 @@ spec:
         # Declare variables to be passed into your templates.
         replicaCount: 1
         image:
-          repository: quay.io/openware/frontdex:4.0.0-alpha.3.93
+          repository: quay.io/openware/frontdex
           pullPolicy: Always
           # Overrides the image tag whose default is the chart appVersion.
-          tag: "build_5"
+          tag: "4.0.0-alpha.3.93"
         imagePullSecrets: []
         nameOverride: "frontdex-test"
         fullnameOverride: "frontdex-chart-2"
